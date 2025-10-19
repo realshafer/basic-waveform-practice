@@ -99,9 +99,7 @@ function resetButton(btn, label, color) {
 
 function stopAll(){
   if (player) player.stop();
-  if (original1) original1.stop();
   resetButton(questionButton, "PLAY", "#00E938");
-  resetButton(original1Button, "PLAY", "#00E938");
 }
 
 function showAnswer() {
